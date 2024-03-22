@@ -1,16 +1,13 @@
 #!/usr/bin/python3
 def best_score(a_dictionary):
-    if a_dictionary is None:
+    if not a_dictionary:
         return None
 
+    best_score = None
     best_key = None
-    best_score = float('-inf')
 
     for key, value in a_dictionary.items():
-
-        if value > best_score:
-
+        if best_score is None or value > best_score:
             best_score = value
             best_key = key
-
     return best_key
