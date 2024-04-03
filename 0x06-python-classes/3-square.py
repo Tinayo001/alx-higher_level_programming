@@ -4,12 +4,7 @@
     Raises:
         TypeError: size should be an integer
         ValueError: value of size always 0 or greater than 0
-
-    Returns:
-        Area: area of square for both original and initial size
-    """
-
-
+"""
 class Square:
     """represent a class square"""
     def __init__(self, size=0):
