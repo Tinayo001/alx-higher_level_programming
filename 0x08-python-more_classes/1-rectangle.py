@@ -22,7 +22,7 @@ class Rectangle:
         width(int): new value of width.Default value set to 0
         height(): new value of height.Default value set to 0
         """
-        
+
         self.width = width
         self.height = height
 
